@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function ProductCard({product}) {
   return (
-    <Link  className=" border-b-4 border-[#f12b2c]  group block overflow-hidden  drop-shadow-lg ">
+    <Link to = {`/productPage/${product.id}`}  className=" border-b-4 border-[#f12b2c]  group block overflow-hidden  drop-shadow-lg ">
   <div className="relative h-[200px] sm:h-[300px] ">
     <img
       src= {product.image }

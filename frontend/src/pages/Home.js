@@ -21,7 +21,7 @@ function Home() {
       <div className='w-[90%] items-center m-auto rounded-2xl bg-[#f12b2c] p-5 drop-shadow-md' >
 
           <h1 className=' flex justify-center text-white uppercase text-xl font-black text-center '  >Welcome to Bro Stores</h1>
-          <h1 className=' flex justify-center text-white uppercase text-6xl font-extralight text-center '  >Style at Your Fingertips</h1>
+          <h1 className=' flex justify-center text-white uppercase text-6xl font-extralight text-center '  >Style & Tech at Your Fingertips</h1>
           
       </div>
 
