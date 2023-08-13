@@ -15,13 +15,15 @@ const Login = () => {
     try {
       // Fetch users from the fakestore API
       const response = await axios.get('https://fakestoreapi.com/users');
+      console.log(response.data)
       const users = response.data;
-
+      
+       
       // Check if the email and password match any user in the response
       const loggedInUser = users.find(
         (user) => user.email === email && user.password === password
       );
-
+      
       if (loggedInUser) {
         // Set the login status to 'success'
         setLoginStatus('success');

@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom'
 function ProductCard({product}) {
   return (
     <Link to = {`/productPage/${product.id}`}  className=" border-b-4 border-[#f12b2c]  group block overflow-hidden  drop-shadow-lg ">
-  <div className="relative h-[200px] sm:h-[300px] ">
+  <div className=" h-[200px] sm:h-[300px] ">
     <img
       src= {product.image }
       alt=""
-      className="absolute inset-0 h-full w-full object-cover "
+      className="h-full w-full object-cover "
     />
   </div>
 

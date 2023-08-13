@@ -23,9 +23,9 @@ function ProductPage() {
   console.log(product)
   return (
 
-    <div className='flex justify-center p-4 gap-20 mx-[10%] mt-4' >
+    <div className='flex flex-col justify-center p-4 gap-20 mx-[10%] mt-4 md:flex-row' >
 
-      <div className=' flex p-4 border-x-slate-400 gap-4 min-w-[45%] max-h-[60vh] items-center justify-center ' >
+      <div className=' flex p-4 border-x-slate-400 gap-4 min-w-[45%] max-w[200px] max-h-[60vh] items-center justify-center ' >
         <img src={product.image} alt="" className= 'max-h-full object-contain shadow-lg p-6' />
       </div>
 

@@ -34,7 +34,7 @@ function SearchPage() {
         <span className=' text-lg font-thin text-gray-800 ' > Search Results for :</span> <span className=' font-extrabold text-xl text-[#f12b2c] uppercase '> {ser} </span>
       </div>
 
-      <div className='w-[90%] grid grid-cols-4 gap-4 content-start p-5 m-auto '>
+      <div className='w-[90%] grid grid-cols-2 gap-4 content-start p-5 m-auto md:grid-cols-4 '>
 
 
           {sresults.map((product) => ( 
